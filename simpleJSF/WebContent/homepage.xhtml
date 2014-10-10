@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+ 
+<h:head>
+	<link rel="stylesheet" href="resources/javascript/yuiloader.js" />
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css" />
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure//grids-responsive.css" />	
+	<link rel="stylesheet" href="resources/css/layouts/marketing.css" />
+
+
+</h:head>
+<h:body>
+	<div class="header">
+	    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+	        <a class="pure-menu-heading" href="">Recipe Manager</a>
+	
+	        <ul>
+	            <li class="pure-menu-selected"><a href="#">Recipes</a></li>
+	            <li><a href="#">Tour</a></li>
+	            <li><a href="#">Sign Up</a></li>
+	        </ul>
+	    </div>
+	</div>
+
+	<h1>Hello World PrimeFaces</h1>
+ 
+	<h:form>
+	   <p:inputText value="#{recipeMngr.recipeId}" />
+ 	</h:form>
+ 
+</h:body>
+</html>
